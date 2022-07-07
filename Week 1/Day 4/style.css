@@ -1,0 +1,12 @@
+h3{color: darkgreen;}
+body{
+    background-image: url("bg image.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-width: 568px)
+ {  #name
+        {
+          color: yellow;      
+         }
+        }
