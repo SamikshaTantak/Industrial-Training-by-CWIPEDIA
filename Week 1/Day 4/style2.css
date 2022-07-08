@@ -1,5 +1,6 @@
 
-.form{
+#form{
+    background-color:lightblue;
     position: absolute;
     top: 30%;
     left: 30%;
@@ -7,4 +8,7 @@
     flex-direction: row;
     border: solid;
     border-radius: 5px;
+}
+#img{
+    border: re;
 }
