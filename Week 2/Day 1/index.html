@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        button{
+            background-color:dodgerblue;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="image.PNG" class="img-fluid" style="height: 900px" width="500px"/>
+          </div>
+          <div class="col">
+            <h2>For Registration for Training</h2><br>
+            <form class="form-group" onsubmit="create()">
+                <label class="form-label"> Email </label><br>
+                <input class="form-control" id="email" name="Email"><br><br>
+                <label class="form-label"> Student Name </label><br>
+                <input class="form-control" id="std_name" name="Student name"><br><br>
+                <label class="form-label"> College Name </label><br>
+                <input class="form-control" id="clg_name" name="College name"><br><br>
+                <label class="form-label"> Branch </label><br>
+                <input class="form-control" id="branch" name="branch"><br><br>
+                <label class="form-label"> Select Training Domain </label><br>
+                <input type="radio" name="Web Development" value="web Development">Web Development<br>
+                <input type="radio" name="app Development" value="app Development">App Development<br>
+                <input type="radio" name="Cyber Security" value="Cyber Security">Cyber Security<br>
+                <input type="radio" name="Software Testing" value="Software Testing">Software Testing<br><br>
+                <label class="form-label"> Phone Number </label><br>
+                <input class="form-control" id="ph_Number" name="Phone Number"><br><br>
+                <label class="form-label"> Address </label><br>
+                <input class="form-control" id="address" name="address"><br><br>
+                <button onclick="create()" type="button"> Submit</button>
+    
+    
+            </form>
+          </div>
+       <script src='main.js'></script>
+</body>
+</html>
