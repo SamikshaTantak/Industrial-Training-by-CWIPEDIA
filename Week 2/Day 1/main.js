@@ -14,8 +14,6 @@ function create(){
     phoneno = document.getElementById("ph_Number").value;
     address = document.getElementById("address").value;
 
-    
-
     document.write(email + "<br/>"+ studentname + "<br/>"+ collegename + "<br/>"+ branch + "<br/>"+ phoneno + "<br/>" +address + "<br/>" )
 
 }
