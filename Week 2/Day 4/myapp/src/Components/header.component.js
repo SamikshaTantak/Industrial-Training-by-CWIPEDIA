@@ -8,8 +8,11 @@ const Header = () => {
     <div class="col">
       <Lottie animationData={anim}/>
     </div>
-    <div class="col">
-      Column
+    <div class="col center">
+    <p class="fs-1">Industrial Training by CWIPEDIA</p>
+    <p class="fs-6">Empowering Diploma student comunity by delivering valueble resource an training</p>
+    <button class="btn btn-primary m-2" type="submit">#Explore</button>
+    <button class="btn btn-primary m-2" type="submit">Register here</button>
     </div>
   </div>
 </div>
